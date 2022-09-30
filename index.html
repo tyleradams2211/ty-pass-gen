@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- title needs to be filled-->
-  <title></title>
+  <title>Password Generator</title>
   <link rel="stylesheet" href="assets/css/reset.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
@@ -15,7 +14,17 @@
 	</header>
 	
 	<main>
-  <div></div>
+    <section>
+     <div class="container">
+        <h1>Tyler's Password Generator</h1>
+        <h2 type="text" class="passwordView" id="passwordFill">Password View</h2>
+      <div class="passwordLength">
+        <label for="">Password Length</label>
+        <input type="range" min="7" max="50" value="25" id="slider-range" oninput="this.nextElementSibling.value = this.value">
+        <input type="number" min="7" max="50" value="25" id="slider-number" readonly>
+      </div>
+     </div>
+    </section>
 	</main>
 	
 	<footer>
