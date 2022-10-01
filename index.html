@@ -17,13 +17,13 @@
     <section>
      <div class="container">
         <h1>Tyler's Password Generator</h1>
-        <h2 type="text" class="passwordView" id="passwordFill">Password View</h2>
+        <h2 type="text" class="passwordView" id="passwordFill">View Password:</h2>
       <div class="passwordLength">
         <label for="">Password Length</label>
         <input type="range" min="7" max="50" value="25" id="slider-range" oninput="this.nextElementSibling.value = this.value">
         <input type="number" min="7" max="50" value="25" id="slider-number" readonly>
       </div>
-      <div>
+      <div class="codeSelect">
         <label for="">Include:</label>
         <label for="">Lower Case</label>
         <input type="checkbox" class="includeCheckbox" id:="lowerCase">
