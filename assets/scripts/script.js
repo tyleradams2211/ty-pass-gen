@@ -1,23 +1,75 @@
-var charSymbols = document.getElementById('symbols');
-var charNumbers = document.getElementById('numbers');
-var charUpperCase = document.getElementById('upperCase');
-var charLowerCase = document.getElementById('lowerCase');
-var viewPW = document.getElementById('viewPW');
+var passLength = document.getElementById('lengthPW');
+var charLower = document.getElementById('lowerCase');
 
-var copyPW = document.getElementById('copyPW');
+// charLower.addEventListener('change', () => {
+//     if(charLower.checked){
+//         console.log('charLower checked');
+//     }else{
+//         console.log('charLower unchecked');
+//     }
+// });
 
-var lengthPW = Element.getElementById('slider-range');
 
-// character collection for each char selection
-const symbols = "!@#$%^&*_-+=";
-const numbers = "0123456789";
-const upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-const lower = "abcdefghijklmnopqrstuvwxyz";
+console.log(passLength);
+console.log(charLower);
 
-console.log('symbols');
-console.log('numbers');
-console.log('upper');
-console.log('lower');
+document.getElementById('genBtn').addEventListener('click', function(){
+    var 
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const charSymbols = document.getElementById('symbols');
+// const charNumbers = document.getElementById('numbers');
+// const charUpperCase = document.getElementById('upperCase');
+// const charLowerCase = document.getElementById('lowerCase');
+// const viewPW = document.getElementById('viewPW');
+
+// const copyPW = document.getElementById('copyPW');
+
+// var lengthPW = document.getElementById('slider-range');
+
+
+
+
+
+
+// // character collection for each char selection
+// const symbols = "!@#$%^&*_-+=";
+// const numbers = "0123456789";
+// const upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+// const lower = "abcdefghijklm(nopqrstuvwxyz";
+
+// console.log(symbols);
+// console.log(numbers);
+// console.log(upper);
+// console.log(lower);
+// console.log(charLowerCase);
+// console.log();
+// console.log('lower');
+
 
 
 // document.getElementById('generateBut').addEventListener("click", event => {
