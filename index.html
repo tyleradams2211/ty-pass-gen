@@ -17,39 +17,32 @@
     <section> 
      <div class="container">
         <h1>Tyler's Password Generator</h1>
-        <h2 type="text" class="passwordView" id="passwordFill">View Password:</h2>
       <div class="passwordLength">
         <h3>Password Length</h3>
         <input type="range" min="7" max="50" value="25" id="slider-range" oninput="this.nextElementSibling.value = this.value">
         <input type="number"min="7" max="50" value="25" id="slider-number">
       </div>
       <div class="codeSelect">
-        <h3>Include:</h3>
+        <h3>Characters:</h3>
         <ul class="codeList">  
-            <li>
-              <input type="checkbox" class="includeCheckbox" id:="lowerCase">
-              <label for="">Lower Case</label>
-          </li>
           <li>
-            <input type="checkbox" class="includeCheckbox" id:="lowerCase">
+            <input type="checkbox" class="includeCheckbox" id:="upperCase">
             <label for="">Upper Case</label>
           <li>
           <li>
-            <input type="checkbox" class="includeCheckbox" id:="lowerCase">
+            <input type="checkbox" class="includeCheckbox" id:="numbers">
             <label for="">Numbers</label>
           </li>
           <li>
-            <input type="checkbox" class="includeCheckbox" id:="lowerCase">
+            <input type="checkbox" class="includeCheckbox" id:="symbols">
             <label for="">Symbols</label>
           </li>
         </ul>
-        
-        
-        
-        
       </div>
       <div>
-        <label for=""></label>
+        <button>Generate Password</button>
+        <button>Copy</button>
+        <h2 type="text" class="passwordView" id="passwordFill">Password:</h2>
       </div>
      </div>
     </section>
