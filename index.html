@@ -10,12 +10,20 @@
 
 <body>
   <main>
+    <header>
+      <h1>Tyler's Password Generator</h1>
+    </header>
+    <section>
+      <h2 type="text" id="pwView"></h2>
+    </section>
     <section>
       <div class="container">
-      <h1>Tyler's Password Generator</h1>
-        <label for="">Set the password length(8 - 128):<input type="number" min="8" max="128" value="25" id="pwLength"></label>
-        <button class="genBtn" id="genBtn">Generate Password</button>
-        <h2 type="text" id="pwView"></h2>
+        <label for="">Set the password length(8 - 128):<input type="number" min="8" max="128" value="8" id="pwLength"></label>
+      </div>
+    </section>
+    <section>
+      <div class="btnCont">
+        <input type="button" class="genBtn" id="genBtn" value="Generate">
       </div>
     </section>
   </main>

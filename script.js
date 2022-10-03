@@ -66,3 +66,6 @@ var genPW = function(length, charTot) {
     return pw;
 }
 
+function copyPW(){
+    var copyPW
+}
