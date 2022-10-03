@@ -11,14 +11,13 @@
 <body>
   <main>
     <section>
-        <input type="number" min="7" max="50" value="25" id="pwLength">
-      <ul>
-          <li><input type="checkbox" id="upper">Upper</li>
-          <li><input type="checkbox" id="numbers"></li>
-          <li><input type="checkbox" id="symbols"></li>
-      </ul>
-      <button id="genBtn">Test</button>
-      <h2 type="text" id="pwView"></h2>
+      <div class="container">
+      <h1>Tyler's Password Generator</h1>
+        <label for="">Set the password length:</label>
+        <input type="number" min="8" max="128" value="25" id="pwLength">
+        <button id="genBtn">Test</button>
+        <h2 type="text" id="pwView"></h2>
+      </div>
     </section>
   </main>
   <script src="script.js"></script>
