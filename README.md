@@ -2,8 +2,10 @@
 
 ## Deployment & Screenshot
 
-https://tyleradams2211.github.io/ty-pass-gen/
+Deployment: https://tyleradams2211.github.io/ty-pass-gen/
 
+![image1](./assets/images/ty-pwgen1.png)
+![image2](./assets/images/ty-pwgen2.png)
 
 
 ## Description
