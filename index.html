@@ -11,13 +11,17 @@
 <body>
   <main>
     <section>
+        <input type="number" min="7" max="50" value="25" id="pwLength">
       <ul>
-          <li>
-            <input type="checkbox" id="testbox">
-          </li>
+          <li><input type="checkbox" id="upper">Upper</li>
+          <li><input type="checkbox" id="numbers"></li>
+          <li><input type="checkbox" id="symbols"></li>
       </ul>
-      <button id="testbutton">Test</button>
+      <button id="genBtn">Test</button>
     </section>
+    <div id="viewPassword">
+      <h2 id="viewPW"></h2>
+    </div>
   </main>
   <script src="script.js"></script>
 </body>
