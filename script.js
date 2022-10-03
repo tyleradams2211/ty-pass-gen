@@ -20,15 +20,14 @@ genBtn.addEventListener('click', event =>{
         if (checkSymbols.checked){
             charTot = charTot += symbols;
         }
-        if (checkUpper) {
+        if (checkUpper.checked) {
             charTot = charTot += upper;
         }
 
         var pwLength = document.getElementById('pwLength').value;
-         
         var pw = genPW(pwLength, charTot);
-        console.log(pw);
         
+        pwView.innerText = pw;
     });
 
 var genPW = function(length, charTot) {
