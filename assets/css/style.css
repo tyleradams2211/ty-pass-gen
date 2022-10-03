@@ -7,9 +7,19 @@ body{
     /* background-color: azure; */
     background-color: azure;
 }
-.container{
+.container h1{
     display: flex;
     justify-content: center;
-    margin: 5%;
-    padding: 5%;
+    margin-top: 10%;
+}
+.container label{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5%;
+}
+.container label input{
+    margin-left: 1%;
+}
+.container button{
+    border: 2px solid black;
 }
