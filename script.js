@@ -5,7 +5,6 @@ var checkUpper = "";
 var checkNumbers = "";
 var checkSymbols = "";
 var checkLower = "";
-
 // character pools that will be selected for use and added to charTot 
 var lower = "abcdefghijklmnopqrstuvwxyz";
 var upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -37,10 +36,8 @@ genBtn.addEventListener('click', event =>{
                 charTot = charTot += symbols;
                 charTot = charTot += symbols;
             }
-
         var pwLength = document.getElementById('pwLength').value;
         var pw = genPW(pwLength, charTot);
-        
         pwView.innerText = pw;
     });
 // Generates the password by generating a random number and multiplying by the amount of characters selected and pulling the products location from charTot
@@ -59,7 +56,6 @@ copyBtn.addEventListener("click", event =>{
        // alerts that the pw was copied
        alert(pw + " was copied.");
 });
-
 // this code is left as prompts annoy me as a user and I want to change this back after I turn in
 // var checkUpper = document.getElementById('upper');
 // var checkNumbers = document.getElementById('numbers');
