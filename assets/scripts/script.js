@@ -37,12 +37,21 @@ genBtn.addEventListener('click', event =>{
                 charTot = charTot += symbols;
             }
         var pwLength = document.getElementById('pwLength').value;
-        var pw = genPW(pwLength, charTot);
-        pwView.innerText = pw;
+        // forces correct limits on password length by alerting the user to make corrections.
+        if (pwLength < 8){
+            alert('Please select a value higher than 8 for the password length');
+            return;
+        }else if (pwLength > 128){
+            alert('Please select a value lower than 128 for the password length');
+            return;
+        }else{
+            var pw = genPW(pwLength, charTot);
+            pwView.innerText = pw;
+        }
     });
 // Generates the password by generating a random number and multiplying by the amount of characters selected and pulling the products location from charTot
 var genPW = function(length, charTot) {
-    pw = "";
+    pw = ""; 
     for (var i = 0; i < length; i++){
         pw += charTot.charAt(Math.floor(Math.random() * charTot.length));
     }
